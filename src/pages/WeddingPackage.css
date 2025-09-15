@@ -1,0 +1,88 @@
+.wedding-package-container {
+    max-width: 1340px;
+    margin: 4rem auto 4rem auto;
+}
+
+header {
+    text-align: center;
+    font-weight: normal;
+}
+
+header h1 {
+    font-weight: normal;
+    font-family: 'sarasvati';
+    font-size: clamp(1rem, 3.5vw, 3.5rem);
+}
+
+.wedding-package-divider {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid var(--main-text-color);
+}
+
+header h2 {
+    font-weight: normal;
+    font-family: 'sarasvati', sans-serif;
+    font-size: clamp(1rem, 2.5vw, 2.5rem);
+    -webkit-text-stroke: 0.1px var(--main-text-color);
+}
+
+.wedding-package-section {
+    padding: 1rem;
+    display: flex;
+}
+
+.wedding-package-content {
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.wedding-package-content h2 {
+    font-weight: normal;
+    font-family: 'theseason';
+    font-size: clamp(1rem, 2.4vw, 2.4rem);
+    -webkit-text-stroke: 0.1px var(--main-text-color);
+}
+
+.wedding-package-image {
+    width: 100%;
+    height: 350px;
+    display: block;
+    object-fit: cover;
+}
+
+.wedding-price {
+    margin-left: -10rem;
+}
+
+.wedding-package-price {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: 0.5s;
+    font-family: 'HvD';
+    width: 160px;
+    text-align: center;
+    padding: 6px 12px 6px 12px;
+    color: var(--white-bg-color);
+    background: linear-gradient( to right, #DA9D61, #B47D4C);
+}
+
+.wedding-coordinators {
+    margin-top: 1rem;
+    font-family: 'HVD';
+    font-weight: normal;
+    font-size: clamp(1rem, 1.4vw, 1.4rem);
+    -webkit-text-stroke: 0.1px var(--main-text-color);
+}
+
+.wedding-package-list {
+    margin-top: 1rem;
+    font-family: 'HVD';
+    font-weight: normal;
+    font-size: clamp(1rem, 1.1vw, 1.1rem);
+    -webkit-text-stroke: 0.1px var(--main-text-color);
+}

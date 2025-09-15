@@ -1,0 +1,92 @@
+.contact-section {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+    margin-top: 4rem;
+}
+
+.contact-content {
+    display: flex;
+    gap: var(--gap-xlg);
+    justify-content: center;
+    margin: var(--margin-xlarge) auto;
+}
+
+form {
+    display: flex;
+    gap: var(--gap-xs);
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    width: 525px;
+    outline: none;
+    border: 1px solid #E5E5E5;
+    font-family: 'HvD', sans-serif;
+    padding: var(--padding-small) var(--padding-medium);
+}
+
+.contact-text {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: var(--font-xxl);
+    font-family: 'sarasvati', sans-serif;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    max-width: 200px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--white-bg-color);
+    font-family: 'HvD', sans-serif;
+    padding: var(--padding-small_1);
+    background-color: var(--text-color_1);
+}
+
+.contact-item {
+    display: flex;
+    gap: var(--gap-xs);
+    align-items: center;
+    margin-top: var(--margin-medium);
+}
+
+.link-header {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'sarasvati', sans-serif;
+}
+
+.contact-item p {
+    font-family: 'HvD', sans-serif;
+    font-size: clamp(0.9rem, 1.2vw, 1.2rem);
+}
+
+i {
+    font-size: larger;
+}   
+.contact-divider {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px dashed #DABFAE;
+}
+
+.fa-phone,
+.fa-facebook,
+.fa-map-marker-alt,
+.fa-envelope {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.his {
+    color: red;
+}

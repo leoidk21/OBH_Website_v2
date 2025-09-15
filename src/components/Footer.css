@@ -1,0 +1,16 @@
+.footer-section {
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-medium);
+    background-color: var(--brand-color);
+
+}
+.copyright {
+    color: var(--white-bg-color);
+    font-family: 'David Libre', sans-serif;
+    font-size: clamp(1rem, 1.2vw, 1.2rem);
+}
+

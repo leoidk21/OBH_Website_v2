@@ -1,0 +1,106 @@
+.faq-section {
+      padding: 2rem;
+      display: flex;
+      margin-top: 1.2rem;
+      text-align: center;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+}
+
+.faq-title {
+      font-weight: normal;
+      font-size: clamp(2.2rem, 3vw, 3rem);
+      font-family: 'sarasvati', sans-serif;
+      -webkit-text-stroke: 0.4px var(--main-text-color);
+}
+
+.faq-description {
+      font-weight: 500;
+      margin-top: 1rem;
+      max-width: 700px;
+      color: var(--main-text-color);
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(1rem, 1vw, 1.2rem);
+}
+
+.faq-item-container {
+      gap: 1.3rem;
+      width: 100%;
+      display: flex;
+      text-align: left;
+      max-width: 800px;
+      margin-top: 2.8rem;
+      flex-direction: column;
+}
+
+.faq-item {
+      display: flex;
+      padding: 1.5rem;
+      cursor: pointer;
+      border-radius: 8px;
+      justify-content: space-between;
+      background-color: var(--white-bg-color);
+      box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.faq-question {
+      margin: 0; 
+      font-weight: 500;
+      color: var(--main-text-color);
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(1rem, 1.2vw, 1.2rem);
+      -webkit-text-stroke: 0.3px var(--main-text-color);
+}
+
+.faq-answer {
+      width: 100%;
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      padding-bottom: 0.5rem;
+      color: rgba(40, 40, 40, 0.7);
+      border-top: 1px solid #E5E5E5;
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(0.9rem, 1vw, 1.1rem);
+}
+
+.faq-answer-wrapper {
+    opacity: 0;
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    transition: 
+      max-height 0.7s cubic-bezier(0.25, 0.8, 0.25, 1), /* smoother expansion */
+      opacity 0.5s ease-in-out; /* fade matches timing */
+}
+
+.faq-answer-wrapper.open {
+      opacity: 1;
+      max-height: 500px;
+}
+
+.faq-icon-toggle {
+      transition: transform 0.4s ease-in-out;
+}
+
+.faq-icon-toggle.open {
+      transform: rotate(360deg);
+}
+
+.fa-icon{
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      padding: 0.5rem;
+      font-size: 1rem;
+      text-align: center;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      color: var(--white-bg-color);
+      background-color: var(--DA9D61);
+}
+
+.faq-button {
+      margin-left: 1rem;
+}
