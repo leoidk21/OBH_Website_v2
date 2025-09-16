@@ -81,11 +81,11 @@
 .venue-description-subtext {
     width: 80%;
     bottom: 30px;
-    color:#CA7842;
+    color: #4D4855;
     position: absolute;
     font-family: 'HVD';
     font-weight: normal;
-    -webkit-text-stroke: 0.2px #CA7842;
+    -webkit-text-stroke: 0.2px #4D4855;
     font-size: clamp(1rem, 1.2vw, 1.2rem);
 }
 

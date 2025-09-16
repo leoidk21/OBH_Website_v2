@@ -18,6 +18,11 @@
     padding: var(--padding-small)
 }
 
+.navbar-logo {
+    list-style: none;
+    text-decoration: none;
+}
+
 .dropdown {
     position: relative;
 }

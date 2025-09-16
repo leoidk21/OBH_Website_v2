@@ -6,7 +6,6 @@ import AboutUs from "../components/About-us";
 import Review from "../components/Review";
 import FAQs from "../components/FAQs";
 import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 import Venue from "../components/Venue";
 
 function Home() {
@@ -31,7 +30,6 @@ function Home() {
       <Review />
       <FAQs />
       <Contact />
-      <Footer />
       {isOpen && (
         <div className="detailsContent">
           <div className="detailsOverlay">

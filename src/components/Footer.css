@@ -5,12 +5,13 @@
     align-items: center;
     justify-content: center;
     padding: var(--padding-medium);
-    background-color: var(--brand-color);
-
+    background-color: var(--border-color-medium);
 }
+
 .copyright {
-    color: var(--white-bg-color);
-    font-family: 'David Libre', sans-serif;
+    padding-top: 0.1rem;
+    color: var(--main-text-color);
+    font-family: 'Poppins', sans-serif;
     font-size: clamp(1rem, 1.2vw, 1.2rem);
 }
 

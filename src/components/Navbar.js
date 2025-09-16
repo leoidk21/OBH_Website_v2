@@ -32,10 +32,17 @@ function MainComponent() {
         <div className="container">
             <nav className="navbar">
                 <div className="navbar-container">
-                    <div className="navbar-logo">
-                        <img src={logo} alt="Logo" className="logo" />
-                        <h2 className="brand-name">Orchestrated By <span className="history">HIS</span>tory</h2>
-                    </div>
+                    <li className="navbar-logo">
+                        <HashLink 
+                            smooth
+                            to="/#home"
+                        >
+                            <div className="navbar-logo">
+                                <img src={logo} alt="Logo" className="logo" />
+                                <h2 className="brand-name">Orchestrated By <span className="history">HIS</span>tory</h2>
+                            </div>
+                        </HashLink>
+                    </li>
 
                     {isMobile && (
                         <div

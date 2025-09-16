@@ -1,0 +1,76 @@
+{
+  "packages": [
+    {
+      "id": 1,
+      "pax": "50 - 90",
+      "price": "14,500",
+      "coordinators": 4,
+      "image": "venueImage",
+      "coordinatorsList": [
+        "1 Head Coor / Venue Coor",
+        "1 Bride Coor",
+        "1 Groom Coor",
+        "1 Guest Coor"
+      ]
+    },
+    {
+      "id": 2,
+      "pax": "100 - 140",
+      "price": "17,500",
+      "coordinators": 5,
+      "image": "venueImage1",
+      "coordinatorsList": [
+        "1 Head Coor",
+        "1 Bride Coor",
+        "1 Groom Coor",
+        "1 Guest Coor",
+        "1 Venue Coor"
+      ]
+    },
+    {
+      "id": 3,
+      "pax": "150 - 190",
+      "price": "19,500",
+      "coordinators": 6,
+      "image": "venueImage",
+      "coordinatorsList": [
+        "1 Head Coor",
+        "1 Bride Coor",
+        "1 Groom Coor",
+        "2 Guest Coor",
+        "1 Venue Coor"
+      ]
+    },
+    {
+      "id": 4,
+      "pax": "200 - 240",
+      "price": "23,000",
+      "coordinators": 7,
+      "image": "venueImage1",
+      "coordinatorsList": [
+        "1 Head Coor",
+        "1 Bride Coor",
+        "1 Groom Coor",
+        "2 Guest Coor",
+        "1 Venue Coor",
+        "1 Sound Tech"
+      ]
+    },
+    {
+      "id": 5,
+      "pax": "250 - 300",
+      "price": "27,000",
+      "coordinators": 8,
+      "image": "venueImage",
+      "coordinatorsList": [
+        "1 Head Coor",
+        "1 Bride Coor",
+        "1 Groom Coor",
+        "2 Guest Coor",
+        "1 Venue Coor",
+        "1 Sound Tech",
+        "1 Seat Locator"
+      ]
+    }
+  ]
+}

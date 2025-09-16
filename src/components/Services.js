@@ -18,11 +18,6 @@ function Services() {
         setModal(!modal);
     };
 
-    const openServiceModal = (type) => {
-        setModal(false);
-        setActiveService(type); 
-    };
-
     const closeServiceModal = () => {
         setActiveService(null);
     };
@@ -65,23 +60,32 @@ function Services() {
                                         }}
                                     />
                                     <h1>Choose Wedding Type</h1>
-                                    <Link to="/wedding-package" className="modal-btn">
+                                    <Link
+                                        smooth={true} 
+                                        duration={500} 
+                                        to="/wedding-package" 
+                                        className="modal-btn"
+                                    >
                                         <span>Intimate Wedding</span>
                                     </Link>
 
-                                    <button 
+                                    <Link
+                                        smooth={true} 
+                                        duration={500} 
+                                        to="/wedding-package" 
                                         className="modal-btn"
-                                        onClick={() => openServiceModal("grand")}
                                     >
-                                       <span>Grand Wedding</span>  
-                                    </button>
+                                        <span>Grand Wedding</span>
+                                    </Link>
 
-                                    <button 
+                                    <Link
+                                        smooth={true} 
+                                        duration={500} 
+                                        to="/wedding-package" 
                                         className="modal-btn"
-                                        onClick={() => openServiceModal("civil")}
                                     >
-                                       <span>Civil Wedding</span>  
-                                    </button>
+                                        <span>Civil Wedding</span>
+                                    </Link>
                                     <button
                                         className="close-btn"
                                         onClick={toggleModal}

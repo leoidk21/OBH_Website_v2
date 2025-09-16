@@ -27,7 +27,6 @@
     position: absolute;
     transform: translate(-50%, -50%);
     padding-left: var(--padding-small_1);
-    padding-right: var(--padding-small_1);
 }
 .hero-txt {
     font-weight: normal;
@@ -42,6 +41,7 @@
 .line-2 {
   display: block;
 }
+
 .hero-text {
     letter-spacing: 0.6rem;
     text-transform: uppercase;
