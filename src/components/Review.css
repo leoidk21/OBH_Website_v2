@@ -41,9 +41,9 @@
     font-size: 1.2rem;
     font-weight: normal;
     border-radius: 10rem;
+    background-color: #102E50;
     color: var(--white-bg-color);
-    background-color: #2f6b4f;
-    padding: 0.2rem 1.6rem 0.1rem 1.6rem;
+    padding: 0.4rem 2rem 0.2rem 2rem;
     font-family: "David Libre", sans-serif;
 }
 
@@ -67,7 +67,7 @@
     border-radius: 50%;
     font-weight: normal;
     align-items: center;
-    padding-top: 0.5rem;
+    padding-top: 0.5rem;    
     justify-content: center;
     background-color: #da9d61;
     color: var(--white-bg-color);
@@ -146,7 +146,7 @@
     max-width: 1200px;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
-    margin: 3rem auto 2rem auto;
+    margin: 2rem auto 2rem auto;
     grid-auto-rows: min-content;
     grid-template-columns: repeat(6, 1fr);
 }

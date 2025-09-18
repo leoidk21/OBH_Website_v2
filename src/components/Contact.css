@@ -6,7 +6,8 @@
     align-items: center;
     justify-content: center;
     background-color: #4B4E53;
-    background-image: linear-gradient(147deg, #000000 0%, #34363a 74%);
+    background: linear-gradient(to right, #0D1B2A 0%, #1B263B 50%, #415A77 100%);
+
 }
 
 .contact-content {
@@ -89,7 +90,7 @@
     width: 64%;
     height: 1px;
     margin: 0 auto;
-    background-color: var(--border-color-medium);
+    background-color: var(--white-bg-color);
 }
 
 .footer-section {
