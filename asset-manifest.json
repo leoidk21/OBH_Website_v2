@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OBH_Website_v2/static/css/main.4c569747.css",
-    "main.js": "/OBH_Website_v2/static/js/main.0cc224f6.js",
+    "main.js": "/OBH_Website_v2/static/js/main.230cb2e6.js",
     "static/media/aboutusheader.png": "/OBH_Website_v2/static/media/aboutusheader.92ebd634ef3d07f30c49.png",
     "static/media/event_venue1.jpg": "/OBH_Website_v2/static/media/event_venue1.1f27c8c0f6b88c0c9686.jpg",
     "static/media/wedding-floral-concept-copy-space.jpg": "/OBH_Website_v2/static/media/wedding-floral-concept-copy-space.8cfba695f92ca9dcc148.jpg",
@@ -28,10 +28,10 @@
     "static/media/360851387_11432686 1.png": "/OBH_Website_v2/static/media/360851387_11432686 1.947382881624d9093405.png",
     "index.html": "/OBH_Website_v2/index.html",
     "main.4c569747.css.map": "/OBH_Website_v2/static/css/main.4c569747.css.map",
-    "main.0cc224f6.js.map": "/OBH_Website_v2/static/js/main.0cc224f6.js.map"
+    "main.230cb2e6.js.map": "/OBH_Website_v2/static/js/main.230cb2e6.js.map"
   },
   "entrypoints": [
     "static/css/main.4c569747.css",
-    "static/js/main.0cc224f6.js"
+    "static/js/main.230cb2e6.js"
   ]
 }
