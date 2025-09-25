@@ -79,6 +79,33 @@
         margin: 10px 0;
     }
 
+    .dropdown-toggle {
+        display: none !important;
+    }
+
+    .dropdown-menu {
+        display: block !important;
+        position: static !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+        margin-top: -35px;
+    }
+
+    .dropdown-menu li {
+        padding: 10px 0;
+        color: var(--text-color);
+    }
+
+    .dropdown-link {
+        width: 100%;
+        display: block;
+        text-align: left;
+        padding-left: 0 !important;
+        margin-top: 0.5rem !important;
+        -webkit-text-stroke: 0.2px var(--main-text-color) !important;
+    }
+
     .venue-main-content {
         flex-direction: column;
     }
@@ -90,6 +117,7 @@
         flex: 1 1 50%;
         max-width: 50%;
     }
+    
     .navbar {
         width: 100%;
         max-width: 640px;
@@ -162,6 +190,10 @@
     .review-card {
         flex-direction: column;
         align-items: center;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: flex !important;
     }
 }
 

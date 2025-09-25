@@ -3,11 +3,7 @@
     height: auto;
     padding: 2rem 0;
     margin-top: 3rem;
-    align-items: center;
-    justify-content: center;
-    background-color: #4B4E53;
-    background: linear-gradient(to right, #0D1B2A 0%, #1B263B 50%, #415A77 100%);
-
+    background: linear-gradient(135deg, #FFFFFF, #EBEBEB, #DADADA);
 }
 
 .contact-content {
@@ -34,7 +30,7 @@
 .contact-subheader {
     font-weight: normal;
     text-transform: uppercase;
-    color: var(--white-bg-color);
+    color: var(--text-color_1);
     font-family: 'HVD', sans-serif;
     font-size: clamp(1rem, 1vw, 1rem);
 }
@@ -48,10 +44,9 @@
 }
 
 .link-header {
-    text-align: left;
     font-weight: normal;
     text-transform: uppercase;
-    color: var(--white-bg-color);
+    color: var(--text-color_1);
     font-family: 'sarasvati', sans-serif;
 }
 
@@ -59,7 +54,7 @@
     width: 10px;
     height: 10px;
     margin-bottom: 0.5rem;
-    color: var(--white-bg-color);
+    color: var(--text-color_1);
 }
 
 .facebook,
@@ -69,7 +64,7 @@
     cursor: pointer;
     font-style: normal;
     text-decoration: none;
-    color: var(--white-bg-color);
+    color: var(--text-color_1);
     font-family: 'HvD', sans-serif;
     transition: all 0.3s ease-in-out;
     font-size: clamp(1.1rem, 1.2vw, 1.2rem);
@@ -79,7 +74,7 @@
 .contact:hover,
 .location:hover,
 .email:hover {
-    color: var(--border-color-medium);
+    color: var(--text-color_1);
 }
 
 .his {
@@ -90,7 +85,7 @@
     width: 64%;
     height: 1px;
     margin: 0 auto;
-    background-color: var(--white-bg-color);
+    background-color: var(--text-color_1);
 }
 
 .footer-section {
@@ -103,7 +98,7 @@
 .copyright {
     font-size: 1rem;
     padding-top: 2rem;
-    color: var(--white-bg-color);
+    color: var(--text-color_1);
     font-family: 'HVD', sans-serif;
 }
 
@@ -114,7 +109,6 @@
 
     .contact-container {
         display: flex;
-        align-items: center;
         flex-direction: column;
     }   
 
@@ -127,7 +121,6 @@
     }
 
     .link-header {
-        text-align: center; /* center title on smaller screens */
         margin-bottom: 1rem;
     }
     

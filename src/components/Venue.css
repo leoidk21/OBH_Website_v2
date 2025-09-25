@@ -4,6 +4,11 @@
     margin: 4rem auto 4rem auto;
 }
 
+.venue-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 .venue-section h1 {
     text-align: center;
     font-weight: normal;
@@ -81,11 +86,11 @@
 .venue-description-subtext {
     width: 80%;
     bottom: 30px;
-    color: #1d1b20;
+    color: #000;
     position: absolute;
     font-family: 'HVD';
     font-weight: normal;
-    -webkit-text-stroke: 0.2px #1d1b20;
+    -webkit-text-stroke: 0.2px #000;
     font-size: clamp(1rem, 1.2vw, 1.2rem);
 }
 

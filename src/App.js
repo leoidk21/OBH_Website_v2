@@ -46,7 +46,7 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <Router basename="/Orchestrated-By-HIStory">
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
       <AnimatedRoutes />
     </Router>

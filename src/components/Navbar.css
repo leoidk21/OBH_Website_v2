@@ -33,9 +33,9 @@
 
 .dropdown-menu {
     top: 100%;
-    margin: 0;
     padding: 0;
-    width: 200px;
+    width: 160px;
+    z-index: 100;
     display: none;
     list-style: none;
     border-radius: 3%;
@@ -59,8 +59,8 @@
     text-transform: uppercase;
     font-family: 'HvD', sans-serif;
     transition: transform 0.5s ease;
-    font-size: var(--padding-small-medium);
     padding: var(--padding-small_1) 1.4rem;
+    font-size: var(--padding-small-medium);
 }
 
 .dropdown-link:hover {
@@ -116,6 +116,7 @@
     text-transform: uppercase;
     transition: color 0.3s ease;
     font-family: 'HvD', sans-serif;
+
     font-size: var(--padding-small-medium);
     -webkit-text-stroke: 0.2px var(--main-text-color);
 }
@@ -156,27 +157,31 @@
 .nav-links-no-underline:hover {
     color: var(--brand-hover);
 }
-/* Show nav links in desktop view */
+
 .nav-menu {
     display: flex;
     list-style: none;
     gap: var(--padding-larger);
 }
+
 /* Hide nav links in mobile view unless active */
 .nav-menu.hidden {
     display: none;
 }
+
 .nav-menu.active {
-    left: 0;
-    top: 89px;
-    width: 100%;
+    right: 0;
+    top: 90px;
+    width: 62%;
     z-index: 1000;
-    padding: 10rem;
+    height: 100vh;
+    padding-top: 3rem;
     position: absolute;
-    align-items: center;
     flex-direction: column;
-    background-color: var(--header-background-color); 
+    background-color: var(--white-bg-color); 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
 /* Hamburger icon hidden by default */
 .menu-container {
     display: none;

@@ -57,9 +57,7 @@ function MainComponent() {
                         </div>
                     )}
 
-                    <ul
-                        className={`nav-menu ${isMobile ? (click ? "active" : "hidden") : ""}`}
-                    >
+                    <ul className={`nav-menu ${isMobile ? (click ? "active" : "hidden") : ""}`} >
                         <li className="nav-item">
                             <HashLink 
                                 smooth
