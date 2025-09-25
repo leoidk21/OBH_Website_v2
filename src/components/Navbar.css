@@ -173,7 +173,7 @@
     top: 90px;
     width: 70%;
     z-index: 1000;
-    padding-top: 3rem;
+    padding-top: 2rem;
     position: absolute;
     flex-direction: column;
     background-color: var(--white-bg-color); 
