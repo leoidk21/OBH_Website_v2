@@ -34,7 +34,7 @@
 .dropdown-menu {
     top: 100%;
     padding: 0;
-    width: 160px;
+    width: 165px;
     z-index: 100;
     display: none;
     list-style: none;
@@ -116,7 +116,6 @@
     text-transform: uppercase;
     transition: color 0.3s ease;
     font-family: 'HvD', sans-serif;
-
     font-size: var(--padding-small-medium);
     -webkit-text-stroke: 0.2px var(--main-text-color);
 }
@@ -172,9 +171,8 @@
 .nav-menu.active {
     right: 0;
     top: 90px;
-    width: 62%;
+    width: 70%;
     z-index: 1000;
-    height: 100vh;
     padding-top: 3rem;
     position: absolute;
     flex-direction: column;

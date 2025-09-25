@@ -96,8 +96,10 @@
 }
 
 .copyright {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     color: var(--text-color_1);
     font-family: 'HVD', sans-serif;
 }
